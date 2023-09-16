@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "AWS",
+  "version": "0.0.1",
+  "description": "empty Bucket",
+   
+  "permissions":[
+    "activeTab", "scripting"
+  ],
+  "background":   {
+    "service_worker":"background.js"
+  },
+  "action": {
+    "default_title": "empty aws Bucket",
+    "default_icon":  "icon-48.png"    
+  }
+}
