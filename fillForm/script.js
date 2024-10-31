@@ -1,13 +1,11 @@
 const targetEmail = "info@ueberall-e-check.de"
 
-
 let emailByType = document.querySelectorAll('input[type="email"]') 
 let emailByPlaceholder = document.querySelectorAll('input[placeholder~="email"]')
 let emailByName = document.querySelectorAll('input[name~="email"]')
 let emailByName0 = document.querySelectorAll('input[name~="subscriber"]')
 let emailByName1 = document.querySelectorAll('input[name~="Email"]')
   
-
 //NAME
 
 let nameByName = document.querySelectorAll('input[name="name"]')

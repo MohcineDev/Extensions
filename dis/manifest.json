@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "discord",
+  "version": "1.0",
+  "description": "add blur.",
+  "icons": {
+    "48": "icons/Screenshot from 2024-10-31 10-57-24.png",
+    "96": "icons/Screenshot from 2024-10-31 10-57-24.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/48.png",
+    "default_title": "Beastify",
+    "default_popup": "disc.html"
+  }
+}
